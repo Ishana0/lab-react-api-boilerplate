@@ -1,0 +1,42 @@
+.main-container {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 20px;
+}
+
+.book-info {
+    flex: 1;
+    padding-right: 23px;
+}
+
+.book-info h2 {
+    margin-top: 0;
+}
+
+.book-info p {
+    margin-bottom: 10px;
+}
+
+.book-img {
+    width: 80px;
+    height: 80px;
+}
+
+.authors {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.authors h3 {
+    margin-right: 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.authors {
+    position: relative;
+    right: 120px;
+    left: 20px;
+}
